@@ -1,7 +1,7 @@
-PROCEDURE Dot_product(VAR v1, v2 : ARRAY_OF FLOAT[7], ps: FLOAT, i : INTEGER, cos : cos(v1, V2))
+PROCEDURE Dot_product(VAR v1, v2 : ARRAY_OF FLOAT[n], ps: FLOAT, i : INTEGER)
 BEGIN
     FOR i FROM 0 TO length(v1) STEP 1  DO
-    ps = v1[i] * v2[i] * cos
+    ps = v1[i] * v2[i]
     END_FOR
     vector1 = [1, 2, 3]
     vector2 = [4, 5, 6]
@@ -13,7 +13,6 @@ VAR
 vn : FLOAT 
 n : INTEGER 
 ps : product(vn[i])
-// pairs of given vectors 
 
 BEGIN
     FOR i FROM 1 TO length(vn) STEP 1  DO
